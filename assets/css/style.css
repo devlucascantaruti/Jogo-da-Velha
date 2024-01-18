@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    color:green;
+}
+
+.piece{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.x{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x:after{
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button{
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    background-color: beige;
+    border: 1px solid gray;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
